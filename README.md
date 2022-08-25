@@ -56,6 +56,8 @@ We are using **Multi Table Insert(MTI)** to load the data in parallel from a str
 <img width="832" alt="convex_data_landscape" src="https://user-images.githubusercontent.com/38339739/186574745-0444245f-450e-4e49-bb52-7c33b2bad0d6.png">
 
 
+***Also Different role and credentials have been created for Data science user to have only access to data mart layer***
+
 ## Future betterment scope
 1. The code should read the keys from environment. This can be done in multiple ways. For example: AWS Key Gen, Environment Variables, kubernetes, Terraform(*Infra as code*). But, I would require devops support for that. 
 2. Automation and auto deduplication of data can be done using Snowpipe.
