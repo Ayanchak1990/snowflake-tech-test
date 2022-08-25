@@ -47,7 +47,7 @@ The data has been loaded using stream and task as a batch processing. ***The aut
 
 ####Automation - 3
 
-Tasks are designed in a way that, one task is depend on another. So sucess on one task will automatically trigger another task. So, there is no manual intervension between the tasks.
+Tasks are designed in a way that, one task is depend on another. So sucess on one task will automatically trigger another task. So, there is no manual intervension between the tasks. 
 
 There is another option to create automate load in Snoflake Using Snowpipe. But, this option should be choose only when we have stream data(effectively for a microservice based architecgture.) <br />
 
